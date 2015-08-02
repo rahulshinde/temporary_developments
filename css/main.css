@@ -21,6 +21,7 @@
 	width: 80%;
 	/* Typography */
 	/* Visual */
+	border: 1px solid pink;
 	/* Misc */
 }
 
@@ -33,6 +34,7 @@
 	width: 20%;
 	/* Typography */
 	/* Visual */
+	border: 1px solid blue;
 	/* Misc */
 
 }
