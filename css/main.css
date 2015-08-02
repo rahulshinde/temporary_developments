@@ -1,0 +1,38 @@
+/* Positioning */
+/* Box-model */
+/* Typography */
+/* Visual */
+/* Misc */
+
+/*  =================================================================
+    BEGIN AUTHOR STYLING
+    ================================================================= */
+
+.container {
+	width: 100%;
+	height: auto;
+}
+
+#content {
+	/* Positioning */
+	float: right;
+	/* Box-model */
+	margin-top: 40px;
+	width: 80%;
+	/* Typography */
+	/* Visual */
+	/* Misc */
+}
+
+#nav {
+	/* Positioning */
+	position: fixed;
+	top: 40px;
+	left: 0;
+	/* Box-model */
+	width: 20%;
+	/* Typography */
+	/* Visual */
+	/* Misc */
+
+}
