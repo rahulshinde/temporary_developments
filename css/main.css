@@ -68,3 +68,29 @@
 	cursor: pointer;
 	/* Misc */
 }
+
+#nav > a:link,
+#nav > a:visited {
+	/* Positioning */
+	/* Box-model */
+	width: 0px;
+	padding: 2px;
+	/* Typography */
+	text-decoration: none;
+	/* Visual */
+	color: black;
+	border-bottom: 2px rgba(0,0,0,0);
+	/* Misc */
+	transition: width 0.2s ease;
+	-webkit-transition: width 0.2s ease;
+	-moz-transition: width 0.2s ease;
+	-o-transition: width 0.2s ease;
+}
+
+#nav > a:hover {
+	display: block;
+	padding-top: 0px;
+	width: 60%;
+	border-bottom: 2px solid blue;
+}
+
