@@ -32,7 +32,7 @@
 #nav {
 	/* Positioning */
 	position: fixed;
-	top: 40px;
+	top: 70px;
 	left: 5%;
 	/* Box-model */
 	width: 20%;
@@ -94,3 +94,7 @@
 	border-bottom: 2px solid blue;
 }
 
+.info {
+	font-size: 70px;
+	overflow-x:hidden;
+}
