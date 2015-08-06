@@ -25,6 +25,10 @@
 	/* Misc */
 }
 
+/*  =======================
+    NAVIGATION
+    ======================= */
+
 #nav {
 	/* Positioning */
 	position: fixed;
@@ -37,5 +41,30 @@
 	/* Visual */
 	border: 1px solid white;
 	/* Misc */
+}
 
+.link {
+	padding: 2px;
+	border-bottom: 2px solid transparent;
+	width: 0px;
+	transition: width 0.2s ease;
+	-webkit-transition: width 0.2s ease;
+	-moz-transition: width 0.2s ease;
+	-o-transition: width 0.2s ease;
+}
+
+.active {
+	border-bottom: 2px solid blue;
+	width: 60%;
+}
+
+.link:hover {
+	/* Positioning */
+	/* Box-model */
+	width: 60%;
+	/* Typography */
+	/* Visual */
+	border-bottom: 2px solid blue;
+	cursor: pointer;
+	/* Misc */
 }
