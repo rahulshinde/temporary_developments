@@ -19,9 +19,10 @@
 	/* Box-model */
 	margin-top: 40px;
 	margin-bottom: 40px;
-	width: 75%;
+	width: 78%;
 	/* Typography */
 	/* Visual */
+	/*border: 1px solid pink;*/
 	/* Misc */
 }
 
@@ -41,7 +42,7 @@
 	/* Typography */
 	font-family: monospace;
 	/* Visual */
-	border: 1px solid black;
+	border-right: 1px solid black;
 	/* Misc */
 }
 
@@ -57,13 +58,13 @@
 
 .active {
 	border-bottom: 2px solid #d8c8ab;
-	width: 70%;
+	width: 87%;
 }
 
 .link:hover {
 	/* Positioning */
 	/* Box-model */
-	width: 70%;
+	width: 87%;
 	/* Typography */
 	/* Visual */
 	border-bottom: 2px solid #d8c8ab;
@@ -83,19 +84,26 @@
 	color: black;
 	border-bottom: 2px transparent;
 	/* Misc */
-	transition: width 0.2s ease;
-	-webkit-transition: width 0.2s ease;
-	-moz-transition: width 0.2s ease;
-	-o-transition: width 0.2s ease;
+	transition: width 0.3s ease;
+	-webkit-transition: width 0.3s ease;
+	-moz-transition: width 0.3s ease;
+	-o-transition: width 0.3s ease;
 }
 
 #nav > a:hover {
 	display: block;
 	padding-top: 0px;
-	width: 70%;
+	width: 87%;
 	border-bottom: 2px solid #d8c8ab;
 }
 
 .info {
-	font-size: 70px;
+	padding-left: 4%;
+	font-family: serif;
+	font-size: 68px;
+	line-height: 78px;
+}
+
+.quote {
+	margin-left: -31px;
 }
