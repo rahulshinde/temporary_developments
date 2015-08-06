@@ -12,7 +12,7 @@ function init() {
     large = Math.floor(Math.random() * 5) + 1 
     largeText = '<img class="logo" src="img/about/logo-large/logo' + large +'.jpg" alt="SOPH logo"/>'
 
-    med = Math.floor(Math.random() * 3) + 1 
+    med = Math.floor(Math.random() * 5) + 1 
     medText = '<img class="logo" src="img/about/logo-med/logo' + med +'.jpg" alt="SOPH logo"/>'
 
     placeImg();
@@ -43,6 +43,4 @@ function placeImg() {
             $('#load-med').hide();
         }
     });
-
-    $('.fade-slow').Show('100', function() {});
 }
