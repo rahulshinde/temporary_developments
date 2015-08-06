@@ -1,8 +1,8 @@
 $(document).ready( function() {
-	$("#content").load("intro.html");
+	$("#content").load("about.html");
 
-    $("#intro-link").on("click", function() {
-        $("#content").load("intro.html");
+    $("#about-link").on("click", function() {
+        $("#content").load("about.html");
         $('.link').removeClass('active');
 		$(this).addClass('active');
     });

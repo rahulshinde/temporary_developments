@@ -18,10 +18,10 @@
 	float: right;
 	/* Box-model */
 	margin-top: 40px;
+	margin-bottom: 40px;
 	width: 75%;
 	/* Typography */
 	/* Visual */
-	border: 1px solid pink;
 	/* Misc */
 }
 
@@ -32,14 +32,16 @@
 #nav {
 	/* Positioning */
 	position: fixed;
-	top: 70px;
-	left: 5%;
+	top: 40px;
+	left: 3%;
 	/* Box-model */
-	width: 20%;
+	padding: 2%;
+	width: 15%;
+	height: 210px;
 	/* Typography */
 	font-family: monospace;
 	/* Visual */
-	border: 1px solid white;
+	border: 1px solid black;
 	/* Misc */
 }
 
@@ -54,17 +56,17 @@
 }
 
 .active {
-	border-bottom: 2px solid blue;
-	width: 60%;
+	border-bottom: 2px solid #d8c8ab;
+	width: 70%;
 }
 
 .link:hover {
 	/* Positioning */
 	/* Box-model */
-	width: 60%;
+	width: 70%;
 	/* Typography */
 	/* Visual */
-	border-bottom: 2px solid blue;
+	border-bottom: 2px solid #d8c8ab;
 	cursor: pointer;
 	/* Misc */
 }
@@ -79,7 +81,7 @@
 	text-decoration: none;
 	/* Visual */
 	color: black;
-	border-bottom: 2px rgba(0,0,0,0);
+	border-bottom: 2px transparent;
 	/* Misc */
 	transition: width 0.2s ease;
 	-webkit-transition: width 0.2s ease;
@@ -90,11 +92,10 @@
 #nav > a:hover {
 	display: block;
 	padding-top: 0px;
-	width: 60%;
-	border-bottom: 2px solid blue;
+	width: 70%;
+	border-bottom: 2px solid #d8c8ab;
 }
 
 .info {
 	font-size: 70px;
-	overflow-x:hidden;
 }
