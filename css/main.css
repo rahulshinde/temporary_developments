@@ -97,7 +97,22 @@
 	border-bottom: 2px solid #d8c8ab;
 }
 
-.info {
-	font-family: serif;
-	font-size: 72px;
+/*  =======================
+    MEDIA QUERIES
+    ======================= */
+
+@media (max-width: 975px) { 
+
+}
+
+@media (max-width: 650px) { 
+
+	#content {
+		width: 100%;
+	}
+	
+	#nav {
+		display: none;
+	}
+
 }
