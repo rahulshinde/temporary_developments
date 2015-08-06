@@ -1,0 +1,20 @@
+/* Positioning */
+/* Box-model */
+/* Typography */
+/* Visual */
+/* Misc */
+
+/*  =================================================================
+    BEGIN AUTHOR STYLING
+    ================================================================= */
+
+.logo-large {
+	/* Positioning */
+	display: block;
+	/* Box-model */
+	width: 70%;
+	margin: 0 auto 30px auto;
+	/* Typography */
+	/* Visual */
+	/* Misc */
+}
