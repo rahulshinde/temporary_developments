@@ -15,6 +15,9 @@ function init() {
     med = Math.floor(Math.random() * 5) + 1 
     medText = '<img class="logo" src="img/about/logo-med/logo' + med +'.jpg" alt="SOPH logo"/>'
 
+    small = Math.floor(Math.random() * 5) + 1 
+    smallText = '<img class="logo" src="img/about/logo-small/logo' + small +'.jpg" alt="SOPH logo"/>'
+
     placeImg();
 }
 
@@ -31,9 +34,8 @@ function placeImg() {
         }
     });
 
-    enquire.register("screen and (max-width: 974px)", {
+    enquire.register("screen and (min-width:650px) and (max-width: 974px)", {
         setup : function() {
-            console.log('hello');
             $('#load-med').append(medText).hide();
         },    
         match : function() {
@@ -41,6 +43,19 @@ function placeImg() {
         },  
         unmatch : function() {
             $('#load-med').hide();
+        }
+    });
+
+    enquire.register("screen and (max-width: 649px)", {
+        setup : function() {
+            $('#load-small').append(smallText).hide();
+        },    
+        match : function() {
+            $('#load-small').fadeIn('slow', function () {} );
+            $('#load-med').hide();
+        },  
+        unmatch : function() {
+            $('#load-small').hide();
         }
     });
 }
