@@ -19,7 +19,7 @@ function init() {
 }
 
 function placeImg() {
-    enquire.register("screen and (min-width: 900px)", {
+    enquire.register("screen and (min-width: 975px)", {
         setup : function() {
             $('#load-large').append(largeText).hide();
         },    
@@ -31,7 +31,7 @@ function placeImg() {
         }
     });
 
-    enquire.register("screen and (max-width: 899px)", {
+    enquire.register("screen and (max-width: 974px)", {
         setup : function() {
             console.log('hello');
             $('#load-med').append(medText).hide();
@@ -43,4 +43,6 @@ function placeImg() {
             $('#load-med').hide();
         }
     });
+
+    $('.fade-slow').Show('100', function() {});
 }
