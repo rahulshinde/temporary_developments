@@ -61,7 +61,7 @@ animation-delay: 0.6s;
 	margin: 0 0 40px 0;
 	/* Typography */
 	font-family: serif;
-	font-size: 60px;
+	font-size: 66px;
 	/* Visual */
 	/* Misc */
 }
@@ -73,7 +73,7 @@ animation-delay: 0.6s;
 @media (max-width: 975px) { 
 	
 	.info {
-		font-size: 44px;
+		font-size: 48px;
 	}
 
 }
@@ -83,7 +83,7 @@ animation-delay: 0.6s;
 	.info {
 		margin-left: auto;
 		margin-right: auto;
-		font-size: 24px;
+		font-size: 36px;
 	}
 
 }
