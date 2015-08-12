@@ -12,17 +12,6 @@
     BEGIN AUTHOR STYLING
     ================================================================= */
 
-.large-gif {
-	/* Positioning */
-	/* Box-model */
-	display: block;
-	margin: 0 auto 30px auto;
-	width: 80%;
-	/* Typography */
-	/* Visual */
-	/* Misc */	
-}
-
 .img-container {
 	position: relative;
 	float: left;
