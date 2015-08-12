@@ -151,7 +151,7 @@
 	#nav-open {
 		/* Positioning */
 		position: fixed;
-		top: 12%;
+		top: 50px;
 		left: 0;
 		/* Box-model */
 		width: 40px;
