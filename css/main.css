@@ -152,14 +152,21 @@
 		/* Positioning */
 		position: fixed;
 		top: 0;
-		right: 0;
 		/* Box-model */
-		width: 40px;
+		width: 100%;
 		height: 40px;
 		/* Typography */
 		/* Visual */
+		background: -webkit-linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0)); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0)); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0)); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0)); /* Standard syntax */
 		display: block;
 		/* Misc */
+	}
+
+	#nav-button {
+		float: right;
 	}
 
 	#nav-open:hover {
