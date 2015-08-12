@@ -1,8 +1,0 @@
-$(document).ready( function() {
-
-    $("#nav-open").on("click", function() {
-        $(".mobile-nav").fadeToggle("slow", function() {})
-        $("#nav-open").fadeToggle("slow", function() {})
-    });
-
-});s
