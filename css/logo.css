@@ -77,18 +77,26 @@
 	
 	.large-gif {
 		margin-top: 40px;
+		width: 64%;
 	}	
 
 	.img-container {
 		display: block;
-		margin-left: 10%;
+		margin-left: 18%;
 		margin-bottom: 30px;
-		width: 80%;
+		width: 64%;
 	}
 
 }
 
 @media screen and (max-width: 500px) { 
-	
+	.large-gif {
+		width: 80%;
+	}	
+
+	.img-container {
+		margin-left: 10%;
+		width: 80%;
+	}
 
 }
