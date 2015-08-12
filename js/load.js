@@ -104,6 +104,28 @@ $(document).ready( function() {
                 $('#logo-link').addClass('active');
                 
             });
+
+            $("#invite-link-mob").on("click", function() {
+                $("#content").load("invite.html");
+                $('.site-position').removeClass('mobile-active');
+                $('.invite-mob').addClass('mobile-active');
+
+                //desktop
+                $('.link').removeClass('active');
+                $('#invite-link').addClass('active');
+                
+            });
+
+            $("#mes-link-mob").on("click", function() {
+                $("#content").load("mes.html");
+                $('.site-position').removeClass('mobile-active');
+                $('.mes-mob').addClass('mobile-active');
+
+                //desktop
+                $('.link').removeClass('active');
+                $('#mes-link').addClass('active');
+                
+            });
         },  
         unmatch : function() {
             $("#nav-open").hide();
