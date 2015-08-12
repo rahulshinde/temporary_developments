@@ -278,11 +278,6 @@ h2 {
 		text-decoration: none;
 	}
 
-	.mobile-nav > a:link,
-	.mobile-nav > a:visited {
-		border-bottom: 2px solid #d8c8ab;
-	}
-
 	#close {
 		padding: 10px;
 		float: right;
