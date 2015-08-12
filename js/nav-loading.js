@@ -2,7 +2,7 @@ $(document).ready( function() {
 
     $("#nav-open").on("click", function() {
         $("#nav-open").fadeToggle("fast", function() {});
-        $(".mobile-nav").fadeToggle("slow", function() {});       
+        $(".mobile-nav").slideToggle("slow", function() {});       
     });
 
     $("#close").on("click", function() {
