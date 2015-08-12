@@ -165,6 +165,7 @@
 		padding-top:15px;
 		margin-left: 40px;
 		width: 100%;
+		color: black;
 		text-decoration: none;
 	}
 
@@ -182,10 +183,6 @@
 	#mobile-link {
 		line-height: 40px;
 		border-bottom: 2px solid #d8c8ab;
-	}
-
-	.nav-b {
-		margin-bottom: 20px;
 	}
 
 	.site-position {
