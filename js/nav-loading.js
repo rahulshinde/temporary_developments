@@ -6,7 +6,7 @@ $(document).ready( function() {
     });
 
     $("#close").on("click", function() {
-        $(".mobile-nav").fadeToggle("fast", function() {});
+        $(".mobile-nav").slideToggle("fast", function() {});
         $("#nav-open").fadeToggle("slow", function() {});
     });
 

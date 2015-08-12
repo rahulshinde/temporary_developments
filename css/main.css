@@ -158,9 +158,6 @@
 		height: 40px;
 		/* Typography */
 		/* Visual */
-		border: 1px solid black;
-		border-top: 0px solid black;
-		border-right: 0px solid black;
 		display: block;
 		/* Misc */
 	}
