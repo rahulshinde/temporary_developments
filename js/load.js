@@ -1,7 +1,7 @@
 $(document).ready( function() {
 	$("#content").load("about.html");
 
-    enquire.register("screen and (min-width: 659px)", {
+    enquire.register("screen and (min-width: 650px)", {
         setup : function() {
             $("#nav").hide();
         },    
