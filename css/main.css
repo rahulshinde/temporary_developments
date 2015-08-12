@@ -98,6 +98,14 @@
 }
 
 /*  =======================
+    ALT MOBILE FOOTER
+    ======================= */
+
+.mobile-nav {
+	display: none;
+}
+
+/*  =======================
     MOBILE FOOTER
     ======================= */
 
@@ -133,6 +141,25 @@
 	}
 
 /*  =======================
+    ALT MOBILE NAV
+    ======================= */
+
+    .mobile-nav{
+		/* Positioning */
+		position: fixed;
+		top: 0;
+		left: 2%;
+		/* Box-model */
+		width: 96%;
+		/* Typography */
+		/* Visual */
+		border-top: 1px solid black;
+		background-color: white;
+		display: block;
+		/* Misc */
+	}
+
+/*  =======================
     FOOTER
     ======================= */	
 	.mobile-footer{
@@ -146,7 +173,7 @@
 		/* Visual */
 		border-top: 1px solid black;
 		background-color: white;
-		display: block;
+		display: none;
 		/* Misc */
 	}
 
