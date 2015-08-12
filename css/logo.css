@@ -24,18 +24,18 @@
 }
 
 .logo-gh > img {
+	float: left;
 	width: 32%;
 }
 
 .logo-l,
 .logo-c {
-	float: left;
 	margin-right: 2%;
 	margin-bottom: 2%;
 }
 
 .logo-r {
-	float: left;
+	margin-bottom: 2%;
 }
 
 .logo-vector > img {
