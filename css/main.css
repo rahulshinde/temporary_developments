@@ -154,16 +154,16 @@
 		/* Typography */
 		font-family: monospace;
 		/* Visual */
-		border-top: 1px solid black;
+		border: 1px solid black;
 		background-color: white;
 		display: block;
 		/* Misc */
 	}
 
-	.underline > a:link,
-	.underline > a:visited {
+	.mobile-nav > a:link,
+	.mobile-nav > a:visited {
 		padding-top:15px;
-		margin-left: 20px;
+		margin-left: 40px;
 		width: 100%;
 		text-decoration: none;
 	}
@@ -175,11 +175,17 @@
 
 	.nav-title {
 		margin-top: 10px;
+		margin-bottom: 20px;
+		margin-left: 10px;
 	}
 
 	#mobile-link {
 		line-height: 40px;
 		border-bottom: 2px solid #d8c8ab;
+	}
+
+	.nav-b {
+		margin-bottom: 20px;
 	}
 
 	.site-position {
