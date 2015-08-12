@@ -147,16 +147,44 @@
     .mobile-nav{
 		/* Positioning */
 		position: fixed;
-		top: 0;
+		top: 4%;
 		left: 2%;
 		/* Box-model */
 		width: 96%;
 		/* Typography */
+		font-family: monospace;
 		/* Visual */
 		border-top: 1px solid black;
 		background-color: white;
 		display: block;
 		/* Misc */
+	}
+
+	.underline > a:link,
+	.underline > a:visited {
+		padding-top:15px;
+		margin-left: 20px;
+		width: 100%;
+		text-decoration: none;
+	}
+
+	#close {
+		padding: 10px;
+		float: right;
+	}
+
+	.nav-title {
+		margin-top: 10px;
+	}
+
+	#mobile-link {
+		line-height: 40px;
+		border-bottom: 2px solid #d8c8ab;
+	}
+
+	.site-position {
+		margin-left: -15px;
+		border: none;
 	}
 
 /*  =======================
