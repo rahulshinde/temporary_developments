@@ -175,6 +175,10 @@ h2 {
 	border-bottom: 2px solid #d8c8ab;
 }
 
+.mob-bottom {
+	margin-bottom: 15px;
+}
+
 
 /*  =======================
     MEDIA QUERIES
@@ -281,7 +285,7 @@ h2 {
 
 	.nav-title {
 		margin-top: 10px;
-		margin-bottom: 20px;
+		margin-bottom: 12px;
 		margin-left: 10px;
 	}
 
