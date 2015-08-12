@@ -97,6 +97,16 @@
 	border-bottom: 2px solid #d8c8ab;
 }
 
+.mobile-footer{
+	/* Positioning */
+	/* Box-model */
+	width: 87%;
+	/* Typography */
+	/* Visual */
+	display: none;
+	/* Misc */
+}
+
 /*  =======================
     MEDIA QUERIES
     ======================= */
@@ -114,5 +124,9 @@
 	#nav {
 		display: none;
 	}
+
+/*  =======================
+    FOOTER
+    ======================= */	
 
 }
