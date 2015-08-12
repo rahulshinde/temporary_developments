@@ -97,6 +97,10 @@
 	border-bottom: 2px solid #d8c8ab;
 }
 
+/*  =======================
+    MOBILE FOOTER
+    ======================= */
+
 .mobile-footer{
 	/* Positioning */
 	/* Box-model */
@@ -104,6 +108,10 @@
 	/* Visual */
 	display: none;
 	/* Misc */
+}
+
+#underline {
+	border-bottom: 2px solid #d8c8ab;
 }
 
 /*  =======================
@@ -147,7 +155,7 @@
 		/* Positioning */
 		/* Box-model */
 		padding-top: 10px;
-		padding-bottom: 10px;
+		padding-bottom: 12px;
 		/* Typography */
 		font-family: monospace;
 		font-size: 12px;
