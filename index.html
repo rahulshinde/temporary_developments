@@ -98,9 +98,23 @@
 			</div> <!-- end mobile nav -->
 
 		
-		<script src="js/jquery-1.11.3.min.js" async=true></script>
-		<script src="js/enquire.js" async=true></script>
-		<script src="js/load.js" async=true></script>
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript">
+			function loadScript (scriptpath){
+    			var s=document.getElementsByTagName('script')[0];
+    			var ss=document.createElement('script');
+   				ss.type='text/javascript';
+    			ss.async=true;
+    			ss.src= scriptpath;
+    			s.parentNode.insertBefore(ss,s);
+			}
+
+			loadScript('js/jquery-1.11.3.min.js');
+			loadScript('js/enquire.js');
+			loadScript('js/load.js');
+		</script>
+		<!-- <script src="js/enquire.js"></script> -->
+		<!-- <script src="js/load.js"></script> -->
 	</body>
 
 </html>
