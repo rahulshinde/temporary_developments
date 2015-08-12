@@ -74,6 +74,20 @@ h1 {
 	/* Misc */
 }
 
+h2 {
+	/* Positioning */
+	display: block;
+	/* Box-model */
+	width: 95%;
+	margin: 0 0 32px 0;
+	/* Typography */
+	font-family: serif;
+	font-size: 42px;
+	line-height: 44px;
+	/* Visual */
+	/* Misc */
+}
+
 /*  =======================
     NAVIGATION
     ======================= */
@@ -170,6 +184,11 @@ h1 {
 	h1 {
 		font-size: 48px;
 	}
+
+	h2 {
+		font-size: 32px;
+		line-height: 36px;
+	}
 }
 
 @media (max-width: 649px) { 
@@ -187,6 +206,12 @@ h1 {
 		margin-left: auto;
 		margin-right: auto;
 		font-size: 32px;
+	}
+
+	h2 {
+		width: 85%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 /*  =======================
@@ -283,6 +308,12 @@ h1 {
 		margin-left: auto;
 		margin-right: auto;
 		font-size: 26px;
+	}
+
+	h2 {
+		width: 90%;
+		font-size: 26px;
+		line-height: 28px;
 	}
 
 }
