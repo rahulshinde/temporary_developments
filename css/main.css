@@ -100,7 +100,6 @@
 .mobile-footer{
 	/* Positioning */
 	/* Box-model */
-	width: 87%;
 	/* Typography */
 	/* Visual */
 	display: none;
@@ -128,5 +127,51 @@
 /*  =======================
     FOOTER
     ======================= */	
+	.mobile-footer{
+		/* Positioning */
+		position: fixed;
+		bottom: 0;
+		left: 2%;
+		/* Box-model */
+		height: 30px;
+		width: 96%;
+		/* Typography */
+		/* Visual */
+		border-top: 1px solid black;
+		background-color: white;
+		display: block;
+		/* Misc */
+	}
 
+	.mobile-footer > a:link,
+	.mobile-footer > a:visited {
+		/* Positioning */
+		/* Box-model */
+		padding-bottom: 2px;
+		/* Typography */
+		font-family: monospace;
+		text-decoration: none;
+		/* Visual */
+		color: black;
+		border-bottom: 2px solid #d8c8ab;
+		/* Misc */
+	}
+
+	#link-left {
+		/* Positioning */
+		float: left;
+		/* Box-model */
+		/* Typography */
+		/* Visual */
+		/* Misc */
+	}
+
+	#link-right {
+		/* Positioning */
+		float: right;
+		/* Box-model */
+		/* Typography */
+		/* Visual */
+		/* Misc */
+	}
 }
