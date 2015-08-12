@@ -98,7 +98,7 @@
 }
 
 /*  =======================
-    ALT MOBILE FOOTER
+    MOBILE NAV
     ======================= */
 
 #nav-open {
@@ -109,22 +109,6 @@
 	display: none;
 }
 
-/*  =======================
-    MOBILE FOOTER
-    ======================= */
-
-.mobile-footer{
-	/* Positioning */
-	/* Box-model */
-	/* Typography */
-	/* Visual */
-	display: none;
-	/* Misc */
-}
-
-#underline {
-	border-bottom: 2px solid #d8c8ab;
-}
 
 /*  =======================
     MEDIA QUERIES
@@ -145,7 +129,7 @@
 	}
 
 /*  =======================
-    ALT MOBILE NAV
+    MOBILE NAV
     ======================= */
 
 	#nav-open {
@@ -224,59 +208,4 @@
 		border: none;
 	}
 
-/*  =======================
-    FOOTER
-    ======================= */	
-	.mobile-footer{
-		/* Positioning */
-		position: fixed;
-		bottom: 0;
-		left: 2%;
-		/* Box-model */
-		width: 96%;
-		/* Typography */
-		/* Visual */
-		border-top: 1px solid black;
-		background-color: white;
-		display: none;
-		/* Misc */
-	}
-
-	.mobile-footer > a:link,
-	.mobile-footer > a:visited {
-		/* Positioning */
-		/* Box-model */
-		padding-top: 10px;
-		padding-bottom: 12px;
-		/* Typography */
-		font-family: monospace;
-		font-size: 12px;
-		text-decoration: none;
-		/* Visual */
-		color: black;
-		/*border-bottom: 2px solid #d8c8ab;*/
-		/* Misc */
-	}
-
-	#link-left {
-		/* Positioning */
-		float: left;
-		/* Box-model */
-		margin-left: 10px;
-		/*margin-left: 10px;*/
-		/* Typography */
-		/* Visual */
-		/* Misc */
-	}
-
-	#link-right {
-		/* Positioning */
-		float: right;
-		/* Box-model */
-		margin-right: 10px;
-		/*margin-right: 10px;*/
-		/* Typography */
-		/* Visual */
-		/* Misc */
-	}
 }
