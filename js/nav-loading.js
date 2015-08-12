@@ -10,4 +10,4 @@ $(document).ready( function() {
         $("#nav-open").fadeToggle("slow", function() {});
     });
 
-});s
+});
