@@ -27,7 +27,7 @@ function placeImg() {
             $('#load-large').append(largeText).hide();
         },    
         match : function() {
-            $('#load-large').fadeIn('slow', function () {} );
+            $('#load-large').show();
         },  
         unmatch : function() {
             $('#load-large').hide();
@@ -39,7 +39,7 @@ function placeImg() {
             $('#load-med').append(medText).hide();
         },    
         match : function() {
-            $('#load-med').fadeIn('slow', function () {} );
+            $('#load-med').show();
         },  
         unmatch : function() {
             $('#load-med').hide();
@@ -51,7 +51,7 @@ function placeImg() {
             $('#load-small').append(smallText).hide();
         },    
         match : function() {
-            $('#load-small').fadeIn('slow', function () {} );
+            $('#load-small').show();
             $('#load-med').hide();
         },  
         unmatch : function() {
