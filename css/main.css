@@ -76,6 +76,23 @@ table {
 }
 
 /*  =======================
+    TEXT STYLING
+    ======================= */
+
+h1 {
+	/* Positioning */
+	display: block;
+	/* Box-model */
+	width: 95%;
+	margin: 0 0 5px 0;
+	/* Typography */
+	font-family: serif;
+	font-size: 66px;
+	/* Visual */
+	/* Misc */
+}
+
+/*  =======================
     NAVIGATION
     ======================= */
 
@@ -167,11 +184,13 @@ table {
     MEDIA QUERIES
     ======================= */
 
-@media (max-width: 975px) { 
-
+@media (max-width: 974px) { 
+	h1 {
+		font-size: 48px;
+	}
 }
 
-@media (max-width: 650px) { 
+@media (max-width: 649px) { 
 
 	#content {
 		width: 100%;
@@ -179,6 +198,13 @@ table {
 	
 	#nav {
 		display: none;
+	}
+
+	h1 {
+		width: 85%;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 32px;
 	}
 
 /*  =======================
@@ -264,6 +290,17 @@ table {
 
 	.mobile-active {
 		opacity: 1;
+	}
+
+}
+
+@media screen and (max-width: 500px) { 
+	
+	h1 {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 26px;
 	}
 
 }

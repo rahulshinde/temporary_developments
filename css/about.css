@@ -53,53 +53,19 @@
 animation-delay: 0.6s;
 }
 
-/*  =======================
-    TEXT STYLING
-    ======================= */
-
-.info {
-	/* Positioning */
-	display: block;
-	/* Box-model */
-	width: 95%;
-	margin: 0 0 5px 0;
-	/* Typography */
-	font-family: serif;
-	font-size: 66px;
-	/* Visual */
-	/* Misc */
-}
 
 /*  =======================
     MEDIA QUERIES
     ======================= */
 
 @media screen and (max-width: 974px) { 
-	
-	.info {
-		font-size: 48px;
-	}
 
 }
 
 @media screen and (max-width: 649px) { 
-	
-	.info {
-		width: 85%;
-		margin-left: auto;
-		margin-right: auto;
-		font-size: 32px;
-	}
 
 }
 
 @media screen and (max-width: 500px) { 
-	
-	.info {
-		width: 90%;
-		margin-left: auto;
-		margin-right: auto;
-		font-size: 26px;
-	}
 
 }
