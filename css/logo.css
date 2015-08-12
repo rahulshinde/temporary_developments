@@ -16,10 +16,6 @@
 	display: block;
 }
 
-#video-small {
-	display: none;
-}
-
 .img-container {
 	position: relative;
 	float: left;
