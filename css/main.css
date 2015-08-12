@@ -101,6 +101,10 @@
     ALT MOBILE FOOTER
     ======================= */
 
+#nav-open {
+	display: none;
+}
+
 .mobile-nav {
 	display: none;
 }
@@ -143,6 +147,31 @@
 /*  =======================
     ALT MOBILE NAV
     ======================= */
+
+	#nav-open {
+		/* Positioning */
+		position: fixed;
+		top: 12%;
+		left: 0;
+		/* Box-model */
+		width: 40px;
+		height: 40px;
+		/* Typography */
+		/* Visual */
+		border: 1px solid black;
+		border-left: 1px solid black;
+		display: block;
+		/* Misc */
+	}
+
+	#nav-open:hover {
+		/* Positioning */
+		/* Box-model */
+		/* Typography */
+		/* Visual */
+		cursor: pointer;
+		/* Misc */
+	}
 
     .mobile-nav{
 		/* Positioning */
