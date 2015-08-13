@@ -84,6 +84,7 @@
 	position: relative;
 	float: left;
 	width: 46%;
+	margin-bottom: 30px;
 }
 
 .graph-container > img {
@@ -91,7 +92,31 @@
 }
 
 .graph-l {
-	margin-right: 2%;
+	margin-right: 4%;
+}
+
+.graph-label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+   	height: 98%;
+   	color: black;
+   	opacity: 1;
+   	text-align: center;
+   	-webkit-transition: opacity 0.5s; /* Safari */
+   	-moz-transition: opacity 0.5s; /* Mozilla */
+   	-o-transition: opacity 0.5s; /* Opera */
+    transition: opacity 0.5s; 
+}
+
+.graph-label > h2 {
+	margin-top: 0px;
+	margin-left: 24px;
+	width: auto;
+
+	font-family: 'Open Sans', sans-serif;
+   	font-size: 16px;
 }
 
 
