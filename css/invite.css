@@ -29,16 +29,16 @@
 .img-large {
 	display: block;
 	width: 80%;
-	margin: 0 auto 4% auto;
+	margin: 0 auto 32px auto;
 }
 
 .img-large > img {
 	width: 100%;
 }
 
-/*#plexi {
+#plexi {
 	margin-bottom: 2%;
-}*/
+}
 
 /*  =======================
     2 PIECE
@@ -47,7 +47,7 @@
 .img-container {
 	position: relative;
 	float: left;
-	width: 38%;
+	width: 39%;
 }
 
 .img-container > img {
@@ -57,7 +57,7 @@
 
 .img-l {
 	margin-left: 10%;
-	margin-right: 4%;
+	margin-right: 2%;
 	margin-bottom: 6%;
 }
 
@@ -76,12 +76,24 @@
 	margin-top: -40px;
 }
 
+#ipad-text > a {
+}
+
 .text-link:link,
 .text-link:visited {
-	height: 50%;
+	display: inline-block;
+	height: 25px;
 	text-decoration: none;
 	color: black;
 	border-bottom: 2px solid black;
+	-webkit-transition: border-bottom 0.5s; /* Safari */
+   	-moz-transition: border-bottom 0.5s; /* Mozilla */
+   	-o-transition: border-bottom 0.5s; /* Opera */
+    transition: border-bottom 0.5s; 
+}
+
+.text-link:hover {
+	border-bottom: 2px solid #d8c8ab;
 }
 
 /*  =======================
@@ -93,10 +105,23 @@
 	.img-r {
 		margin-bottom: 2%;
 	}
+
+	.text-link:link,
+	.text-link:visited {
+		height: 22px;
+	}
 }
 
 @media screen and (max-width: 649px) { 
-	
+	.img-container {
+		position: relative;
+		float: left;
+		width: 80%;
+	}
+
+	.img-r {
+		margin-left: 10%;
+	}
 
 }
 
