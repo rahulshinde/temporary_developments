@@ -58,25 +58,22 @@
 .img-l {
 	margin-left: 10%;
 	margin-right: 2%;
-	margin-bottom: 6%;
+	margin-bottom: 4%;
 }
 
 .img-r {
-	margin-bottom: 6%;
+	margin-bottom: 4%;
+}
+
+.explanation1 {
+	margin-bottom: 4%;
 }
 
 /*  =======================
     IPAD
     ======================= */
 #ipad {
-	margin-bottom: 0;
-}
-
-#ipad-text {
-	margin-top: -40px;
-}
-
-#ipad-text > a {
+	margin-bottom: 10%;
 }
 
 .text-link:link,
