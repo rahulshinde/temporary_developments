@@ -1,0 +1,71 @@
+/*  =========================
+	== I N V I T E . C S S ==
+	========================= */
+
+/* Positioning */
+/* Box-model */
+/* Typography */
+/* Visual */
+/* Misc */
+
+/*  =================================================================
+    BEGIN AUTHOR STYLING
+    ================================================================= */
+
+.img-full {
+	display: block;
+	width: 100%;
+	margin: 0 auto 2% auto;
+}
+
+.img-full > img {
+	width: 100%;
+}
+
+.img-large {
+	display: block;
+	width: 80%;
+	margin: 0 auto 32px auto;
+}
+
+.img-large > img {
+	width: 100%;
+}
+
+.img-container {
+	position: relative;
+	float: left;
+	width: 32%;
+}
+
+.img-container > img {
+	width: 100%;
+}
+
+.img-l,
+.img-c {
+	margin-right: 2%;
+	margin-bottom: 2%;
+}
+
+.img-r {
+	margin-bottom: 2%;
+}
+
+
+/*  =======================
+    MEDIA QUERIES
+    ======================= */
+
+@media screen and (max-width: 974px) { 
+
+}
+
+@media screen and (max-width: 649px) { 
+	
+}
+
+@media screen and (max-width: 500px) { 
+
+
+}
