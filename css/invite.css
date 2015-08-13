@@ -46,7 +46,7 @@
 .img-l,
 .img-c {
 	margin-right: 2%;
-	margin-bottom: 2%;
+	margin-bottom: 4%;
 }
 
 .img-r {
@@ -58,7 +58,7 @@
 #plexi-right {
 	float: right;
 	width: 50%;
-	margin-top: -150px;
+	margin-top: -120px;
 }
 
 .explanation1 {
@@ -71,11 +71,18 @@
     ======================= */
 
 @media screen and (max-width: 974px) { 
-
+	#plexi-right {
+		margin-top: -90px;
+	}
+	.img-l,
+	.img-c {
+		margin-bottom: 2%;
+	}
 }
 
 @media screen and (max-width: 649px) { 
 	
+
 }
 
 @media screen and (max-width: 500px) { 
