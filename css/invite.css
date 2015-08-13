@@ -76,6 +76,14 @@
 	margin-top: -40px;
 }
 
+.text-link:link,
+.text-link:visited {
+	height: 50%;
+	text-decoration: none;
+	color: black;
+	border-bottom: 2px solid black;
+}
+
 /*  =======================
     MEDIA QUERIES
     ======================= */
