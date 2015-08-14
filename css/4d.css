@@ -1,0 +1,32 @@
+/*  =================
+	== 4 D . C S S ==
+	================= */
+
+/* Positioning */
+/* Box-model */
+/* Typography */
+/* Visual */
+/* Misc */
+
+/*  =================================================================
+    BEGIN AUTHOR STYLING
+    ================================================================= */
+
+/*  =======================
+    GENERAL IMG STYLING
+    ======================= */
+
+.img-large {
+	display: block;
+	width: 80%;
+	margin: 0 auto 32px auto;
+}
+
+.img-large > img {
+	width: 100%;
+}
+
+iframe {
+	display: block;
+	margin-left: 10%;
+}
