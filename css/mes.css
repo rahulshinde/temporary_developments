@@ -38,7 +38,7 @@
 	float: left;
 	/* Box-model */
 	width: 69%;
-	margin: 0 0 0 0;
+	margin: 0 0 6% 0;
 	/* Typography */
 	/* Visual */
 	/* Misc */
@@ -62,4 +62,69 @@
 
 .img-label > img {
 	width: 100%;
+}
+
+
+/*  =======================
+    MEDIA QUERIES
+    ======================= */
+
+@media screen and (max-width: 974px) { 
+	.img-diagram {
+		/* Positioning */
+		/* Box-model */
+		width: 90%;
+		margin: 0 5% 0 5%;
+		/* Typography */
+		/* Visual */
+		/* Misc */
+	}
+
+	.img-label {
+		/* Positioning */
+		float: left;
+		/* Box-model */
+		width: 46%;
+		margin: 0 28% 7% 28%;
+		/* Typography */
+		/* Visual */
+		/* Misc */
+
+	}
+
+	.label2 {
+		margin-left: 29%;
+	}
+	
+	.label3 {
+		margin-left: 33%;
+	}
+}
+
+@media screen and (max-width: 649px) { 
+	
+
+}
+
+@media screen and (max-width: 500px) { 
+
+	.img-label {
+		/* Positioning */
+		/* Box-model */
+		width: 80%;
+		margin: 0 10% 7% 10%;
+		/* Typography */
+		/* Visual */
+		/* Misc */
+
+	}
+
+	.label2 {
+		margin-left: 17%;
+	}
+	
+	.label3 {
+		margin-left: 16%;
+	}
+
 }
