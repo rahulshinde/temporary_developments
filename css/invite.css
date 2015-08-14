@@ -123,6 +123,10 @@
 }
 
 @media screen and (max-width: 500px) { 
-
+	
+	.text-link:link,
+	.text-link:visited {
+		height: 20px;
+	}
 
 }
