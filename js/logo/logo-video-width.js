@@ -8,7 +8,7 @@ $(document).ready( function() {
 	function init() {
 		 width = $(iframe).width();
 
-    	height = width * 2/3;
+    	height = width * 72/128;
 
     	$(iframe).height(height);
 	}
@@ -19,7 +19,7 @@ $(document).ready( function() {
 
     function updateDimensions() {
     	var width = $(iframe).width();
-    	var height = width * 2/3;
+    	var height = width * 72/128;
     	$(iframe).height(height);
     }
 
