@@ -12,8 +12,9 @@
     BEGIN AUTHOR STYLING
     ================================================================= */
 
-#video-large {
-	display: block;
+iframe {
+	margin-left: 10%;
+	margin-bottom: 4%;
 }
 
 /*  =======================
@@ -140,14 +141,6 @@
 }
 
 @media screen and (max-width: 649px) { 
-	
-	#video-large {
-		display: none;
-	}
-
-	#video-small {
-		display: block;
-	}	
 
 	.img-container {
 		display: block;
@@ -193,10 +186,7 @@
 
 }
 
-@media screen and (max-width: 500px) { 
-	.large-gif {
-		width: 80%;
-	}	
+@media screen and (max-width: 500px) { 	
 
 	.img-container {
 		margin-left: 10%;
