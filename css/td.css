@@ -16,23 +16,12 @@
     GENERAL IMG STYLING
     ======================= */
 
-.img-studio {
-	display: block;
-	float: left;
-	width: 60%;
-	margin: 0 4% 4% 0;
-}
-
-.img-studio > img {
-	width: 100%;
-}
-
 .img-book {
 	display: block;
 	float: left;
-	width: 30%;
-	margin: 2% 2% 4% 0;
-	box-shadow: -5px -5px 5px rgba(0,0,0,0.9);
+	width: 40%;
+	margin: 0 30% 4% 30%;
+	box-shadow: -6px -6px 10px rgba(0,0,0,0.9);
 }
 
 .img-book > img {
