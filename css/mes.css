@@ -123,6 +123,10 @@ iframe {
 	.label4 {
 		margin-left: 36%;
 	}
+
+	iframe {
+		height:300px;
+	}
 }
 
 @media screen and (max-width: 649px) { 
@@ -162,6 +166,10 @@ iframe {
 
 	.label4 {
 		margin-left: 20%;
+	}
+
+	iframe {
+		height:200px;
 	}
 
 }
