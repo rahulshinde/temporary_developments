@@ -26,7 +26,20 @@
 	width: 100%;
 }
 
-iframe {
-	display: block;
-	margin-left: 10%;
+.video-wrapper {
+	width:80%; 
+	height:100%; 
+	margin:0 auto;
+}
+
+.h_iframe {
+	position:relative; 
+	padding-top: 66%;
+}
+
+.h_iframe iframe {
+	position:absolute;
+	top:0;left:0;
+	width:100%; 
+	height:100%;
 }
