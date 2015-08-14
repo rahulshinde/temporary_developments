@@ -1,0 +1,40 @@
+/*  =================
+	== T D . C S S ==
+	================= */
+
+/* Positioning */
+/* Box-model */
+/* Typography */
+/* Visual */
+/* Misc */
+
+/*  =================================================================
+    BEGIN AUTHOR STYLING
+    ================================================================= */
+
+/*  =======================
+    GENERAL IMG STYLING
+    ======================= */
+
+.img-studio {
+	display: block;
+	float: left;
+	width: 60%;
+	margin: 0 4% 4% 0;
+}
+
+.img-studio > img {
+	width: 100%;
+}
+
+.img-book {
+	display: block;
+	float: left;
+	width: 30%;
+	margin: 2% 2% 4% 0;
+	box-shadow: -5px -5px 5px rgba(0,0,0,0.9);
+}
+
+.img-book > img {
+	width: 100%;
+}
