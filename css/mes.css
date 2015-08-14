@@ -31,3 +31,35 @@
 .img-large > img {
 	width: 100%;
 }
+
+.img-diagram {
+	/* Positioning */
+	display: block;
+	float: left;
+	/* Box-model */
+	width: 69%;
+	margin: 0 0 0 0;
+	/* Typography */
+	/* Visual */
+	/* Misc */
+}
+
+.img-diagram > img {
+	width: 100%;
+}
+
+.img-label {
+	/* Positioning */
+	display: block;
+	float: right;
+	/* Box-model */
+	width: 30%;
+	margin: 6% 0 0 0;
+	/* Typography */
+	/* Visual */
+	/* Misc */
+}
+
+.img-label > img {
+	width: 100%;
+}
