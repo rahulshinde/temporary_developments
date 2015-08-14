@@ -64,6 +64,22 @@
 	width: 100%;
 }
 
+.img-sudoku {
+	/* Positioning */
+	display: block;
+	float: left;
+	/* Box-model */
+	width: 50%;
+	margin: 0 0 0 0;
+	/* Typography */
+	/* Visual */
+	/* Misc */
+}
+
+.img-sudoku > img {
+	width: 100%;
+}
+
 
 /*  =======================
     MEDIA QUERIES
@@ -103,6 +119,15 @@
 
 @media screen and (max-width: 649px) { 
 	
+	.img-sudoku {
+		/* Positioning */
+		/* Box-model */
+		width: 80%;
+		margin: 0 0 0 10%;
+		/* Typography */
+		/* Visual */
+		/* Misc */
+	}
 
 }
 
