@@ -12,6 +12,16 @@
     BEGIN AUTHOR STYLING
     ================================================================= */
 
+.img-full {
+	display: block;
+	width: 100%;
+	margin: 0 auto 2% auto;
+}
+
+.img-full > img {
+	width: 100%;
+}
+
 .img-large {
 	display: block;
 	width: 80%;
