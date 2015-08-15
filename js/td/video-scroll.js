@@ -9,7 +9,11 @@ function updateVideo() {
     console.log(video.currentTime);
 
     if (video.currentTime > videoLength) {
-    	console.log('hello');
+    	video.currentTime = videoLength;
+    }
+
+    else if (video.currentTime < 0) {
+    	console.log('under');
     }
 }
 
