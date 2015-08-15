@@ -5,7 +5,7 @@ function updateVideo() {
     var scrollPosition = $('#scroll').scrollTop();
     var scrollY = $('#scroll')[0].scrollHeight;
 
-    video.currentTime = (scrollPosition / (scrollY - 500)) * videoLength;
+    video.currentTime = 30 + (scrollPosition / (scrollY - 500)) * videoLength;
     console.log(video.currentTime);
 
     if (video.currentTime > videoLength) {
