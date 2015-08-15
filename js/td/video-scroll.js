@@ -10,6 +10,10 @@ function updateVideo() {
     console.log((scrollPosition / (scrollY - 500)) * videoLength);
 
     video.currentTime = (scrollPosition / (scrollY - 500)) * videoLength;
+
+    if (video.currentTime > videoLength) {
+    	console.log('hello');
+    }
 }
 
 $('#scroll').scroll(function () {
