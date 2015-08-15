@@ -6,7 +6,7 @@ function updateVideo() {
     var scrollY = $('#scroll')[0].scrollHeight;
 
     if (video.currentTime > videoLength) {
-    	video.currentTime = videoLength;
+    	video.currentTime = 109.22;
     }
 
     else if (video.currentTime < 0) {
