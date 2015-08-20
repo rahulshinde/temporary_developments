@@ -5,6 +5,46 @@
 		<title>publication</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<style>
+			.img-book {
+				display: block;
+				float: left;
+				width: 40%;
+				margin: 0 30% 4% 30%;
+				box-shadow: -6px -6px 10px rgba(0,0,0,0.9);
+			}
+
+			.img-book > img {
+				width: 100%;
+			}
+
+			@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+			@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+			@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+			
+			.slow-fade {
+				opacity:0;
+				-webkit-animation:fadeIn ease-in 1;
+				-moz-animation:fadeIn ease-in 1;
+				-o-animation:fadeIn ease-in 1;
+				animation:fadeIn ease-in 1;
+
+				-webkit-animation-fill-mode:forwards;
+				-moz-animation-fill-mode:forwards;
+				-o-animation-fill-mode:forwards;
+				animation-fill-mode:forwards;
+
+				-webkit-animation-duration:0.8s;
+				-moz-animation-duration:0.8s;
+				-o-animation-duration:0.8s;
+				animation-duration:0.8s;
+			}
+
+			.slow-fade {
+				-webkit-animation-delay: 0.6s;
+				-moz-animation-delay: 0.6s;
+				-o-animation-delay: 0.6s;
+				animation-delay: 0.6s;
+			}			
 		</style>
 		
 		<link rel="stylesheet" type="text/css" href="css/td.css">
@@ -19,7 +59,7 @@
 			</div>
 
 			<h2 class="slow-fade">
-				Temporary Developments serves as a catalouge through which this project could be rationalized within a historical context as well as an exploratory p 
+				Temporary Developments serves as a catalogue for the branding philosophy in and around it's application. The publication contains both essays and short stories.
 			</h2> <!-- end info -->
 
 			<div class="video-wrapper">
