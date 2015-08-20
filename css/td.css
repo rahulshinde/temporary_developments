@@ -16,18 +16,6 @@
     GENERAL IMG STYLING
     ======================= */
 
-.img-book {
-	display: block;
-	float: left;
-	width: 40%;
-	margin: 0 30% 4% 30%;
-	box-shadow: -6px -6px 10px rgba(0,0,0,0.9);
-}
-
-.img-book > img {
-	width: 100%;
-}
-
 .scroll-container {
 	float: left;
 	position: relative;
@@ -44,6 +32,12 @@
 	z-index: 100;
 	color: rgba(0,0,0,0);
 	cursor: row-resize;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .scroll-container > video {
