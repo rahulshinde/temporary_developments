@@ -83,10 +83,10 @@
 	text-decoration: none;
 	color: black;
 	border-bottom: 2px solid black;
-	-webkit-transition: border-bottom 0.5s, color 0.5s; /* Safari */
-   	-moz-transition: border-bottom 0.5s, color 0.5s; /* Mozilla */
-   	-o-transition: border-bottom 0.5s, color 0.5s; /* Opera */
-    transition: border-bottom 0.5s, color 0.5s; 
+	-webkit-transition: border-bottom 0.3s, color 0.3s; /* Safari */
+   	-moz-transition: border-bottom 0.3s, color 0.3s; /* Mozilla */
+   	-o-transition: border-bottom 0.3s, color 0.3s; /* Opera */
+    transition: border-bottom 0.3s, color 0.3s; 
 }
 
 .text-link:hover {
