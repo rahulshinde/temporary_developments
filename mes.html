@@ -7,7 +7,34 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
 		<style>
+			@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+			@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+			@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+			
+			.slow-fade {
+				opacity:0;
+				-webkit-animation:fadeIn ease-in 1;
+				-moz-animation:fadeIn ease-in 1;
+				-o-animation:fadeIn ease-in 1;
+				animation:fadeIn ease-in 1;
 
+				-webkit-animation-fill-mode:forwards;
+				-moz-animation-fill-mode:forwards;
+				-o-animation-fill-mode:forwards;
+				animation-fill-mode:forwards;
+
+				-webkit-animation-duration:0.8s;
+				-moz-animation-duration:0.8s;
+				-o-animation-duration:0.8s;
+				animation-duration:0.8s;
+			}
+
+			.slow-fade {
+				-webkit-animation-delay: 0.6s;
+				-moz-animation-delay: 0.6s;
+				-o-animation-delay: 0.6s;
+				animation-delay: 0.6s;
+			}
 		</style>
 
 		<link rel="stylesheet" type="text/css" href="css/mes.css">
@@ -17,10 +44,11 @@
 
 		<div class="container">
 			<div class="img-large">
-				<img src="img/mes/title.jpg">
+				<img class="web-img" src="img/mes/title.png">
+				<img class="mobile-img" src="img/mes/title1.2.png">
 			</div>
 
-			<h2 class="title">
+			<h2 class="title slow-fade">
 				Due to storefront’s shifting location, the company requires a flexible exhibition system for setting up their pop up shops.
 				An algorithm defined in grasshopper constructs a rectilinear space based on two inputs (height and width). The user defines these positions, as well as the door’s dimensions / position. From these series of points, a snake like form is constructed based on proportions of the space to define the paths where each object will be placed.
 			</h2>
