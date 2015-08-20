@@ -29,9 +29,10 @@
 }
 
 .scroll-container {
+	float: left;
 	position: relative;
 	width: 80%;
-	margin: 0 auto;
+	margin: 0 10%;
 }
 
 #scroll {
@@ -74,15 +75,29 @@
 
 .img-studio {
 	display: block;
-	float: right;
+	float: left;
 	width: 45%;
-	margin-top: 2.5%;
-	margin-right: 8%;
-	margin-bottom: 9.6%;
+	margin-top: 2.4%;
+	margin-left: 4%;
+	margin-bottom: 8%;
 }
 
 .img-studio > img {
 	width: 100%;
+}
+
+h4 {
+	float: left;
+	display: block;
+	margin-left: 11%;
+}
+
+.web {
+	display: block;
+}
+
+.mobile {
+	display: none;
 }
 
 .text-link:link,
@@ -113,12 +128,29 @@
 	.text-link:visited {
 		height: 22px;
 	}
+
+	h4 {
+		margin-left: 10%;
+	}
+
 }
 
 @media screen and (max-width: 649px) { 
 	
 	.img-book {
 		box-shadow: -5px -6px 5px rgba(0,0,0,0.9);
+	}
+
+	.scroll-container {
+		display: none;
+	}
+
+	.mobile {
+		display: block;
+	}
+
+	.web {
+		display: none;
 	}
 
 }
@@ -128,6 +160,10 @@
 	.text-link:link,
 	.text-link:visited {
 		height: 17px;
+	}
+
+	h4 {
+		margin-left: 5%;
 	}
 
 }
