@@ -37,7 +37,13 @@
 	padding-top: 66%;
 }
 
-.h_iframe iframe {
+.h2_iframe {
+	position:relative; 
+	padding-top: 56%;
+}
+
+.h_iframe iframe,
+.h2_iframe iframe {
 	position:absolute;
 	top:0;left:0;
 	width:100%; 
