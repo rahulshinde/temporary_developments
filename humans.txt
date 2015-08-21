@@ -1,0 +1,19 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+	rahul shinde.
+	always interested in collaboration/discourse
+	hit me up: rshinde@mica.edu
+
+
+# THANKS
+
+	my family
+	brokette horne
+	ben kutil
+
+# TECHNOLOGY COLOPHON
+
+	HTML5, CSS3, Eric Meyer's Reset CSS v2.0, jQuery, Enquire.js
