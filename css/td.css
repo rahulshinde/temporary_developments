@@ -20,7 +20,9 @@
 	float: left;
 	position: relative;
 	width: 80%;
-	margin: 0 10%;
+	margin-top: -40px;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 #scroll {
@@ -46,6 +48,18 @@
 	left:0;
 	width: 100%;
 	height: auto;
+}
+
+#scroll-instructions {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-top: 130px;
+	z-index: 50;
+	text-align: center;
+	color: rgb(0,0,0);
 }
 
 .video-wrapper {

@@ -12,6 +12,7 @@ function updateVideo() {
 }
 
 $('#scroll').scroll(function () {
+	$('#scroll-instructions').fadeTo("slow", 0, function() {});
     updateVideo();
 
 });
