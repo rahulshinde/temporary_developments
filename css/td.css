@@ -176,6 +176,15 @@ h4 {
 		display: none;
 	}
 
+	.text-link:link,
+	.text-link:visited {
+		border-bottom: 1px solid black;
+	}
+
+	.text-link:hover {
+		border-bottom: 1px solid #d8c8ab;
+	}
+
 }
 
 @media screen and (max-width: 500px) { 

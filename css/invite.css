@@ -121,6 +121,16 @@
 		margin-left: 10%;
 	}
 
+	.text-link:link,
+	.text-link:visited {
+		border-bottom: 1px solid black;
+	}
+
+	.text-link:hover {
+		color: #d8c8ab;
+		border-bottom: 1px solid #d8c8ab;
+	}
+
 }
 
 @media screen and (max-width: 500px) { 

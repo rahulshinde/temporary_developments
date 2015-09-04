@@ -290,8 +290,20 @@ h4 {
 	}
 
 	#close {
-		padding: 10px;
+		padding-top: 10px;
+		padding-right: 20px;
+		padding-bottom:20px;
+		padding-left: 30px;
 		float: right;
+	}
+
+	#close:hover {
+		cursor: pointer;
+	}
+
+	.mobile-nav > p:hover,
+	.mobile-nav > a:hover {
+		cursor: pointer;
 	}
 
 	.nav-title {
