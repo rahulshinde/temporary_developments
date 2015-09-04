@@ -11,8 +11,12 @@ function updateVideo() {
     console.log(video.currentTime);
 }
 
-$('#scroll').scroll(function () {
-	$('#scroll-instructions').fadeTo("slow", 0, function() {});
-    updateVideo();
+function placeText () {
+	$('#scroll').scroll(function () {
+		$('#scroll-instructions').fadeTo("slow", 0, function() {});
+    	updateVideo();
 
-});
+	});
+}
+
+placeText();
