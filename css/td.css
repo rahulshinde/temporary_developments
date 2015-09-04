@@ -58,7 +58,8 @@
 	z-index: 50;
 	margin-top: 17%;
 	text-align: center;
-	color: rgb(150,150,150);
+	letter-spacing: 2px;
+	color: rgb(170,170,170);
 }
 
 .video-wrapper {
